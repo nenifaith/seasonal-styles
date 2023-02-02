@@ -3,5 +3,7 @@ $("document").ready(function(){
         e.preventDefault();//stop default submission
         var season = $(this).attr("href");//contents of href attribute of this element
         alert(season);
+
+        
     });
 });
